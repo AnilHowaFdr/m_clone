@@ -8,3 +8,22 @@ const changeSlide = () => {
 };
 
 setInterval(changeSlide, 4000);
+
+// ================= color picker start ==============
+
+document.querySelector(".pickerBtn").onclick = () => {
+  document.querySelector(".colorSwitcher").classList.toggle("active");
+};
+
+let themeBtns = document.querySelectorAll(".theme-btns");
+
+themeBtns.forEach((color) => {
+  color.addEventListener("click", () => {
+    let dataColor = color.getAttribute("data-color");
+    document
+      .querySelector(":root")
+      .style.setProperty("--main-color", dataColor);
+  });
+});
+
+// ================= color picker end ==============
