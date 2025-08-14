@@ -17,6 +17,10 @@
   .bannerDetail p {
     font-size: 0.9rem;
   }
+  .contactDetail {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 @media (max-width: 991px) {
   .bannerDetail h1 {

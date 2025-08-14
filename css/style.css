@@ -85,6 +85,25 @@ ul li a.active {
   flex-direction: column;
 }
 
+.heading3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.heading2 {
+  color: var(--main-color);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 8.5px;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
 #pBar {
   width: 80vw;
 }
@@ -255,35 +274,11 @@ ul li a.active {
 }
 
 /* =========== contact =========== */
-/* #contact {
+#contact {
   background-color: black;
+  color: white;
 }
-.separateIcon {
-  position: relative;
-  text-align: center;
-  font-size: 20px;
-  color: #a8a8a8;
-}
-.separateIcon span {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid #a8a8a8;
-  padding-top: 4px;
-  margin-top: 10px;
-}
-.separateIcon::before {
-  background-color: rgba(222, 222, 222, 0.2);
-  content: "";
-  height: 2px;
-  background-color: rgba(222, 222, 222, 0.8);
-  width: 100px;
-  margin: 0 auto;
-  position: absolute;
-  top: 26px;
-  right: calc(50% + 27px);
-} */
-
+/* separator */
 .separator {
   display: flex;
   align-items: center;
@@ -310,4 +305,67 @@ ul li a.active {
   height: 50px;
   border-radius: 50%;
   border: 1px solid #a8a8a8;
+}
+
+/* separator */
+
+.contactDetail {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.contactDetail label {
+  font-size: 14px;
+  padding-bottom: 3px;
+  padding-top: 20px;
+  font-weight: 500;
+  display: block;
+}
+.contactform {
+  width: 60%;
+}
+.contactBottom {
+  width: 40%;
+}
+.submit {
+  margin-top: 30px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  height: 41px;
+  font-style: normal;
+  width: auto;
+  padding: 13px 54px 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: normal;
+  border-radius: 20px;
+}
+.submit:hover {
+  background-color: #4bbcf7;
+}
+.formGroup {
+  border-bottom: 1px solid #403939;
+}
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.contactDetail input {
+  color: white;
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.contactBottom h4 {
+  font-size: 14px;
+  font-weight: 800;
+}
+.contactBottom p {
+  font-size: 16px;
+  font-weight: 400;
 }
