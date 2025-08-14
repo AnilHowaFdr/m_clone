@@ -117,11 +117,38 @@ ul li a.active {
   animation: changeImg 1s ease forwards;
 }
 .bannerDetail h1 {
-  font-weight: 600;
+  padding-top: 30px;
+  font-weight: 300;
   color: #eaeaea;
   font-size: 100px;
   line-height: 50px;
-  letter-spacing: 10px;
+  letter-spacing: 25px;
+  text-align: center;
+}
+.bannerDetail h2 {
+  margin-top: 50px;
+  font-weight: 300;
+  color: #eaeaea;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.bannerDetail .bannerBtn {
+  padding: 12px 30px;
+  text-decoration: none;
+  border: 2px solid white;
+  margin-top: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #eaeaea;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bannerDetail .bannerBtn:hover {
+  background-color: #ed2b45;
+  border: none;
+  color: white;
 }
 .bannerDetail h1 {
   opacity: 1;

@@ -1,8 +1,40 @@
-@media (max-width: 768px) {
-  .bannerDetails h1 {
-    font-size: 1.5rem;
+@media (max-width: 450px) {
+  .bannerDetail h1 {
+    font-size: 5rem;
+    letter-spacing: 16px;
+    line-height: 80px;
   }
-  .bannerDetails p {
+  .bannerDetail p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .bannerDetail h1 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    line-height: 80px;
+  }
+  .bannerDetail p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 991px) {
+  .bannerDetail h1 {
+    font-size: 3.4rem;
+    letter-spacing: 10px;
+    line-height: 80px;
+  }
+  .bannerDetail p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1199px) {
+  .bannerDetail h1 {
+    font-size: 4.5rem;
+    letter-spacing: 10px;
+    line-height: 80px;
+  }
+  .bannerDetail p {
     font-size: 0.9rem;
   }
 }
