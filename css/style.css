@@ -29,32 +29,39 @@ body {
   align-items: center;
   padding: 0 20px;
 }
+
 ul {
   list-style: none;
   display: flex;
 }
+
 ul li {
   padding: 0 8px;
 }
+
 ul li a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: 18px;
 }
+
 ul li a:hover {
   color: var(--main-color);
   font-weight: 500;
 }
+
 ul li a.active {
   color: var(--main-color);
   font-weight: 500;
 }
+
 .logo {
   display: flex;
   align-items: center;
   column-gap: 4px;
 }
+
 .logo span {
   font-size: 1.5rem;
   font-weight: 700;
@@ -175,7 +182,9 @@ ul li a.active {
 }
 
 .bannerDetail {
-  margin-top: 70px;
+  position: absolute;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,23 +215,23 @@ ul li a.active {
 }
 
 .bannerDetail a {
-  padding: 12px 30px;
+  padding: 16px 55px;
   text-decoration: none;
-  border: 2px solid white;
   margin-top: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #eaeaea;
-  background: transparent;
+  background-color: var(--main-color);
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.2s ease-out;
 }
 
-.bannerDetail a:hover {
+/* .bannerDetail a:hover {
   background-color: var(--main-color);
   border: none;
   color: white;
-}
+} */
 
 .bannerDetail h1 {
   opacity: 1;
