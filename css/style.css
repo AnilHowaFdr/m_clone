@@ -312,7 +312,7 @@ ul li a.active {
 
 .contactDetail {
   display: flex;
-  gap: 30px;
+  gap: 35px;
   width: 100%;
   margin-top: 80px;
 }
@@ -369,7 +369,7 @@ textarea {
 .contactDetail .contactBottom .addressList {
   display: flex;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 14px;
   margin: 15px 0;
 }
 .contactDetail .contactBottom .addressList span {
@@ -386,6 +386,8 @@ textarea {
   margin-bottom: 24px;
   font-size: 18px;
   font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .contactBottom p {
   font-size: 16px;
@@ -394,9 +396,9 @@ textarea {
 .contact {
   margin-bottom: 30px;
 }
-/* .social-link {
-  display: flex;
-} */
+.social-link {
+  margin-top: 50px;
+}
 .social-link li {
   display: inline-block;
 }
@@ -407,15 +409,18 @@ textarea {
   display: block;
   margin: 0 3px;
   text-align: center;
-  width: 48px;
-  padding: 10px 0;
+  width: 50px;
+  padding: 10px 5px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+.social-link a:hover {
+  background-color: var(--main-color);
+  color: white;
+}
 .social-link i {
-  display: inline-block;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
