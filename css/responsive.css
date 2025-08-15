@@ -9,6 +9,9 @@
   }
 }
 @media (max-width: 768px) {
+  .heading2 {
+    font-size: 30px;
+  }
   .bannerDetail h1 {
     font-size: 3rem;
     letter-spacing: 10px;
@@ -20,6 +23,9 @@
   .contactDetail {
     flex-direction: column;
     gap: 50px;
+  }
+  .submit {
+    margin-top: 20px;
   }
 }
 @media (max-width: 991px) {

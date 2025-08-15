@@ -90,7 +90,7 @@ ul li a.active {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 20px 0;
   text-align: center;
 }
 .heading2 {
@@ -99,7 +99,7 @@ ul li a.active {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 8.5px;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 30px;
   padding: 10px 0;
 }
@@ -277,13 +277,14 @@ ul li a.active {
 #contact {
   background-color: black;
   color: white;
+  padding: 60px 0;
 }
 /* separator */
 .separator {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px auto;
+  margin: 0 auto;
   max-width: 300px;
 }
 
@@ -313,9 +314,10 @@ ul li a.active {
   display: flex;
   gap: 30px;
   width: 100%;
+  margin-top: 80px;
 }
 .contactDetail label {
-  font-size: 14px;
+  font-size: 18px;
   padding-bottom: 3px;
   padding-top: 20px;
   font-weight: 500;
@@ -328,7 +330,7 @@ ul li a.active {
   width: 40%;
 }
 .submit {
-  margin-top: 30px;
+  margin-top: 40px;
   background-color: var(--main-color);
   color: #fff;
   border: none;
@@ -346,6 +348,7 @@ ul li a.active {
 }
 .formGroup {
   border-bottom: 1px solid #403939;
+  margin-bottom: 20px;
 }
 textarea {
   width: 100%;
@@ -360,12 +363,60 @@ textarea {
   outline: none;
   border: none;
   background-color: transparent;
+  font-size: 18px;
+}
+
+.contactDetail .contactBottom .addressList {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: 15px 0;
+}
+.contactDetail .contactBottom .addressList span {
+  color: var(--main-color);
+}
+.contactDetail .contactBottom .addressList p {
+  font-size: 20px;
+}
+.contactDetail .contactBottom p {
+  font-size: 18px;
+  padding: 5px 0;
 }
 .contactBottom h4 {
-  font-size: 14px;
+  margin-bottom: 24px;
+  font-size: 18px;
   font-weight: 800;
 }
 .contactBottom p {
   font-size: 16px;
   font-weight: 400;
+}
+.contact {
+  margin-bottom: 30px;
+}
+/* .social-link {
+  display: flex;
+} */
+.social-link li {
+  display: inline-block;
+}
+.social-link a {
+  color: #fff;
+  border: 1px solid rgba(222, 222, 222, 0.2);
+  font-size: 26px;
+  display: block;
+  margin: 0 3px;
+  text-align: center;
+  width: 48px;
+  padding: 10px 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.social-link i {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
