@@ -56,6 +56,37 @@ ul li a.active {
   font-weight: 500;
 }
 
+/* separator */
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.separator span {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+.separator i {
+  color: #a8a8a8;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #a8a8a8;
+}
+
+/* separator */
+
 .logo {
   display: flex;
   align-items: center;
@@ -86,7 +117,6 @@ ul li a.active {
 }
 
 .heading3 {
-  color: white;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
@@ -273,42 +303,62 @@ ul li a.active {
   }
 }
 
-/* =========== contact =========== */
+/* =============== event ================ */
+
+#event {
+  color: white;
+  padding: 60px 0;
+}
+
+#event .black {
+  color: black;
+}
+
+.image-card {
+  position: relative;
+  width: 350px;
+  height: 220px;
+  overflow: hidden;
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-size 0.5s ease;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Zoom effect on hover */
+.image-card:hover {
+  background-size: 110%; /* Zoom in */
+}
+
+/* Text content inside the card */
+.card-content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* =============== contact ================ */
 #contact {
   background-color: black;
   color: white;
   padding: 60px 0;
 }
-/* separator */
-.separator {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 300px;
-}
-
-.separator span {
-  flex: 1;
-  height: 2px;
-  background: linear-gradient(to right, transparent, #ccc, transparent);
-}
-
-.separator i {
-  color: #a8a8a8;
-  font-size: 24px;
-  margin-top: 10px;
-  margin-left: 9px;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 1px solid #a8a8a8;
-}
-
-/* separator */
 
 .contactDetail {
   display: flex;
@@ -424,4 +474,8 @@ textarea {
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+}
+
+.white {
+  color: white;
 }
