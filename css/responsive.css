@@ -47,4 +47,16 @@
   .bannerDetail p {
     font-size: 0.9rem;
   }
+
+  .ticketBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .eventBtn {
+    padding: 15px 40px;
+  }
+  .eventBtn2 {
+    padding: 15px 40px;
+  }
 }
