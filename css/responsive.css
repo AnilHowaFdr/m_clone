@@ -20,6 +20,14 @@
   .bannerDetail p {
     font-size: 0.9rem;
   }
+  .artistPersons {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .img-card {
+    position: relative;
+    width: 100%;
+  }
   .contactDetail {
     flex-direction: column;
     gap: 50px;
