@@ -7,6 +7,10 @@
   .bannerDetail p {
     font-size: 0.9rem;
   }
+  .artistPersons {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 @media (max-width: 768px) {
   .heading2 {
@@ -20,14 +24,19 @@
   .bannerDetail p {
     font-size: 0.9rem;
   }
+
+  /* === artist ==== */
   .artistPersons {
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .img-card {
     position: relative;
     width: 100%;
   }
+  /* === artist ==== */
+
+  /* ====== contact ====== */
   .contactDetail {
     flex-direction: column;
     gap: 50px;
